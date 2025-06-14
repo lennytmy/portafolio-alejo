@@ -37603,7 +37603,7 @@ A.Bn.prototype={
 O(a){var s=null,r=A.ah(a),q=A.bQ(a,B.aD,t.w).w.r.b,p=A.ank(a,s),o=B.zp.B(0,new A.aB(0,q,0,0)),n=r.p1.y
 n.toString
 n=A.aaE(A.afG(B.Mp,a,!1,!1,!1,!0),s,B.eW,!0,n,s,s,B.bm)
-return A.aW(s,new A.qh(n,o,B.wi,s,B.c_,B.jF,s,s),B.n,s,s,new A.b6(s,s,new A.cF(B.r,B.r,p,B.r),s,s,s,B.z),s,q+161,s,B.zd,s,s,s,s)}}
+return A.aW(s,new A.qh(n,o,B.wj,s,B.c_,B.jF,s,s),B.n,s,s,new A.b6(s,s,new A.cF(B.r,B.r,p,B.r),s,s,s,B.z),s,q+161,s,B.zd,s,s,s,s)}}
 A.nq.prototype={
 gt(a){var s=this
 return A.I(s.gbO(),s.b,s.c,s.gbZ(),s.gcq(),s.gbu(),s.goD(),s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
@@ -62696,7 +62696,7 @@ o=A.aq(f,A.ad(j,j,B.e,j,j,j,j,j,j,j,j,25,j,j,B.cQ,j,j,!0,j,j,j,j,j,j,j,j))
 n=A.az(j,25,j)
 m=A.bJ(30)
 l=t.F
-l=A.aV(A.b([d,s,r,q,p,o,n,A.dT(j,A.aW(j,A.Af(A.aq(e,A.ad(j,j,B.j,j,j,j,j,j,j,j,j,18,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)),j,j),B.n,j,j,new A.b6(B.B,j,j,m,j,j,B.z),j,40,j,j,j,j,j,150),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4I(),j,j,j),A.az(j,40,j),A.ct(A.b([A.dT(j,new A.bf(B.fO,A.cg("/icons8-linkedin-50.png",1.5),j),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4J(),j,j,j),A.az(j,j,10),A.dT(j,new A.bf(B.fO,A.cg("/icons8-github-50.png",1.5),j),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4K(),j,j,j),A.az(j,j,10),A.dT(j,new A.bf(B.fO,A.cg("/icons8-whatsapp-50.png",1.5),j),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4L(),j,j,j)],l),B.l,B.aB,B.O)],l),B.l,B.p)
+l=A.aV(A.b([d,s,r,q,p,o,n,A.dT(j,A.aW(j,A.Af(A.aq(e,A.ad(j,j,B.j,j,j,j,j,j,j,j,j,18,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)),j,j),B.n,j,j,new A.b6(B.B,j,j,m,j,j,B.z),j,40,j,j,j,j,j,150),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4I(),j,j,j),A.az(j,40,j),A.ct(A.b([A.dT(j,new A.bf(B.fO,A.cg("assets/icons8-linkedin-50.png",1.5),j),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4J(),j,j,j),A.az(j,j,10),A.dT(j,new A.bf(B.fO,A.cg("assets/icons8-github-50.png",1.5),j),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4K(),j,j,j),A.az(j,j,10),A.dT(j,new A.bf(B.fO,A.cg("assets/icons8-whatsapp-50.png",1.5),j),B.T,!1,j,j,j,j,j,j,j,j,j,j,j,j,new A.a4L(),j,j,j)],l),B.l,B.aB,B.O)],l),B.l,B.p)
 d=l}else{d=A.aq(h,A.ad(j,j,B.e,j,j,j,j,j,j,j,j,65,j,j,B.R,j,j,!0,j,j,j,j,j,j,j,j))
 s=A.aq(g,A.ad(j,j,j,j,j,j,j,j,j,j,j,105,j,j,B.U,j,j,!0,j,j,j,j,j,j,j,j))
 r=A.aq(f,A.ad(j,j,j,j,j,j,j,j,j,j,j,27,j,j,B.cR,j,j,!0,j,j,j,j,j,j,j,j))
@@ -63030,7 +63030,7 @@ case 4:A.j8("No se pudo abrir Lindkedin")
 case 3:return A.N(null,r)}})
 return A.O($async$nx,r)},
 O(a){var s=null
-return A.dG(A.dT(s,A.aW(s,s,B.n,s,s,B.wk,s,40,s,s,s,s,s,45),B.T,!1,s,s,s,s,s,s,s,s,s,s,s,s,this.gW_(),s,s,s),B.aJ,s,s,s)}}
+return A.dG(A.dT(s,A.aW(s,s,B.n,s,s,B.wh,s,40,s,s,s,s,s,45),B.T,!1,s,s,s,s,s,s,s,s,s,s,s,s,this.gW_(),s,s,s),B.aJ,s,s,s)}}
 A.tp.prototype={
 ac(){return new A.x5()}}
 A.x5.prototype={
@@ -63048,7 +63048,7 @@ case 4:A.j8("No se pudo abrir Lindkedin")
 case 3:return A.N(null,r)}})
 return A.O($async$ny,r)},
 O(a){var s=null
-return A.dG(A.dT(s,A.aW(s,s,B.n,s,s,B.wh,s,40,s,s,s,s,s,45),B.T,!1,s,s,s,s,s,s,s,s,s,s,s,s,this.gW0(),s,s,s),B.aJ,s,s,s)}}
+return A.dG(A.dT(s,A.aW(s,s,B.n,s,s,B.wi,s,40,s,s,s,s,s,45),B.T,!1,s,s,s,s,s,s,s,s,s,s,s,s,this.gW0(),s,s,s),B.aJ,s,s,s)}}
 A.w9.prototype={
 ac(){return new A.yJ()}}
 A.yJ.prototype={
@@ -63066,7 +63066,7 @@ case 4:A.j8("No se pudo abrir WhatsApp")
 case 3:return A.N(null,r)}})
 return A.O($async$nz,r)},
 O(a){var s=null
-return A.dG(A.dT(s,A.aW(s,s,B.n,s,s,B.wj,s,40,s,s,s,s,s,45),B.T,!1,s,s,s,s,s,s,s,s,s,s,s,s,this.gW1(),s,s,s),B.aJ,s,s,s)}}
+return A.dG(A.dT(s,A.aW(s,s,B.n,s,s,B.wk,s,40,s,s,s,s,s,45),B.T,!1,s,s,s,s,s,s,s,s,s,s,s,s,this.gW1(),s,s,s),B.aJ,s,s,s)}}
 A.rZ.prototype={
 ac(){var s=null,r=t.A
 return new A.wV(new A.bj(s,r),new A.bj(s,r),new A.bj(s,r),new A.bj(s,r),new A.bj(s,r),A.ZI())}}
@@ -65648,21 +65648,21 @@ B.we=new A.av(56,56,56,56)
 B.wf=new A.av(96,96,96,96)
 B.wg=new A.av(0,1/0,56,56)
 B.iC=new A.av(1/0,1/0,1/0,1/0)
-B.vV=new A.jc("icons8-linkedin-50.png",null,null)
+B.vU=new A.jc("assets/icons8-github-50.png",null,null)
 B.cz=new A.A5(2,"cover")
 B.b0=new A.nM(3,"noRepeat")
 B.aP=new A.lh(2,"medium")
-B.yK=new A.jm(B.vV)
+B.yK=new A.jm(B.vU)
 B.cA=new A.A8(1,"circle")
 B.wh=new A.b6(null,B.yK,null,null,null,null,B.cA)
+B.vT=new A.jc("assets/icons8-linkedin-50.png",null,null)
+B.yL=new A.jm(B.vT)
+B.wi=new A.b6(null,B.yL,null,null,null,null,B.cA)
 B.B=new A.z(1,0,0.24313725490196078,0.4392156862745098,B.i)
 B.z=new A.A8(0,"rectangle")
-B.wi=new A.b6(B.B,null,null,null,null,null,B.z)
-B.vT=new A.jc("icons8-whatsapp-50.png",null,null)
-B.yL=new A.jm(B.vT)
-B.wj=new A.b6(null,B.yL,null,null,null,null,B.cA)
-B.vU=new A.jc("icons8-github-50.png",null,null)
-B.yM=new A.jm(B.vU)
+B.wj=new A.b6(B.B,null,null,null,null,null,B.z)
+B.vV=new A.jc("assets/icons8-whatsapp-50.png",null,null)
+B.yM=new A.jm(B.vV)
 B.wk=new A.b6(null,B.yM,null,null,null,null,B.cA)
 B.wl=new A.A5(6,"scaleDown")
 B.iD=new A.qE(0,"tight")
