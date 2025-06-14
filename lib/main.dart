@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:portafolio_a/globals/colors-app.dart';
-import 'package:portafolio_a/pages/home_page.dart';
+import 'package:portafolio_a/home_page.dart';
 
 void main() {
   runApp(const MyApp());
