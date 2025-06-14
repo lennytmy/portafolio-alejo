@@ -19,7 +19,7 @@ class _HomeBannerState extends State<HomeBanner> {
     return isMobile
         ? Column(
           children: [
-            Image.asset("/foto-ursi.png", scale: 3),
+            Image.asset("assets/foto-ursi.png", scale: 3),
             SizedBox(height: 10),
             Text(
               "Hola! Soy",
