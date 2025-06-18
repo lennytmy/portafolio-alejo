@@ -162,41 +162,42 @@ class _ContactBannerState extends State<ContactBanner> {
                 children: [
                   Column(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 200,
-                        decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 240, 242, 243),
-                          borderRadius: BorderRadius.circular(130),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.2),
-                              spreadRadius: 2,
-                              blurRadius: 5,
-                              offset: Offset(0, 3),
-                            ),
-                          ],
-                        ),
-                        child: Icon(
-                          Icons.email,
-                          color: Colors.black,
-                          size: 100,
-                        ),
-                      ),
-                      Text("Email", style: TextStyle(fontSize: 30)),
-                      SizedBox(height: 10),
                       GestureDetector(
                         onTap:
                             () => launchUrlString(
                               "mailto:alejoursi99@gmail.com",
                               mode: LaunchMode.externalApplication,
                             ),
-                        child: Text(
-                          "alejoursi99@gmail.com",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: const Color.fromARGB(255, 0, 62, 112),
+                        child: Container(
+                          width: 200,
+                          height: 200,
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 240, 242, 243),
+                            borderRadius: BorderRadius.circular(130),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.2),
+                                spreadRadius: 2,
+                                blurRadius: 5,
+                                offset: Offset(0, 3),
+                              ),
+                            ],
                           ),
+                          child: Icon(
+                            Icons.email,
+                            color: Colors.black,
+                            size: 100,
+                          ),
+                        ),
+                      ),
+                      Text("Email", style: TextStyle(fontSize: 30)),
+                      SizedBox(height: 10),
+
+                      Text(
+                        "alejoursi99@gmail.com",
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: const Color.fromARGB(255, 0, 62, 112),
                         ),
                       ),
                     ],
