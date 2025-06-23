@@ -42,14 +42,10 @@ class _ContactBannerState extends State<ContactBanner> {
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 240, 242, 243),
                       borderRadius: BorderRadius.circular(130),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.2),
-                          spreadRadius: 2,
-                          blurRadius: 5,
-                          offset: Offset(0, 3),
-                        ),
-                      ],
+                     border: Border.all(
+                      color: const Color.fromARGB(255, 0, 62, 112),
+                      width: 2,
+                     )
                     ),
                     child: Icon(Icons.email, color: Colors.black, size: 60),
                   ),
@@ -76,14 +72,10 @@ class _ContactBannerState extends State<ContactBanner> {
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 240, 242, 243),
                       borderRadius: BorderRadius.circular(130),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.2),
-                          spreadRadius: 2,
-                          blurRadius: 5,
-                          offset: Offset(0, 3),
-                        ),
-                      ],
+                     border: Border.all(
+                      color: const Color.fromARGB(255, 0, 62, 112),
+                      width: 2,
+                     )  ,
                     ),
                     child: Icon(Icons.phone, color: Colors.black, size: 60),
                   ),
@@ -103,14 +95,10 @@ class _ContactBannerState extends State<ContactBanner> {
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 240, 242, 243),
                       borderRadius: BorderRadius.circular(130),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.2),
-                          spreadRadius: 2,
-                          blurRadius: 5,
-                          offset: Offset(0, 3),
-                        ),
-                      ],
+                     border: Border.all(
+                      color: const Color.fromARGB(255, 0, 62, 112),
+                      width: 2, ),
+                      
                     ),
                     child: Icon(Icons.place, color: Colors.black, size: 60),
                   ),
@@ -168,14 +156,10 @@ class _ContactBannerState extends State<ContactBanner> {
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(130),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.2),
-                              spreadRadius: 2,
-                              blurRadius: 5,
-                              offset: Offset(0, 3),
-                            ),
-                          ],
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 0, 62, 112),
+                            width: 2,
+                          ),  
                         ),
                         child: Icon(
                           Icons.email,
@@ -210,14 +194,10 @@ class _ContactBannerState extends State<ContactBanner> {
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(130),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.2),
-                              spreadRadius: 2,
-                              blurRadius: 5,
-                              offset: Offset(0, 3),
-                            ),
-                          ],
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 0, 62, 112),
+                            width: 2,
+                          ),  
                         ),
                         child: Icon(
                           Icons.phone,
@@ -245,14 +225,10 @@ class _ContactBannerState extends State<ContactBanner> {
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(130),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.2),
-                              spreadRadius: 2,
-                              blurRadius: 5,
-                              offset: Offset(0, 3),
-                            ),
-                          ],
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 0, 62, 112),
+                            width: 2,
+                          ),  
                         ),
                         child: Icon(
                           Icons.place,

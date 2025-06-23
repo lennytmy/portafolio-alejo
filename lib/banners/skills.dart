@@ -41,8 +41,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
@@ -63,8 +63,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
@@ -91,8 +91,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
@@ -115,8 +115,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
@@ -143,8 +143,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
@@ -168,8 +168,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
@@ -195,8 +195,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
@@ -217,8 +217,8 @@ class _SkillsBannerState extends State<SkillsBanner> {
                   Column(
                     children: [
                       Container(
-                        width: 130,
-                        height: 130,
+                        width: 120,
+                        height: 120,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 240, 242, 243),
                           borderRadius: BorderRadius.circular(50),
