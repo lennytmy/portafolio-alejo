@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portafolio_a/globals/string-info.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class ContactBanner extends StatefulWidget {
@@ -36,18 +37,25 @@ class _ContactBannerState extends State<ContactBanner> {
 
               Column(
                 children: [
-                  Container(
-                    width: 100,
-                    height: 100,
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 240, 242, 243),
-                      borderRadius: BorderRadius.circular(130),
-                     border: Border.all(
-                      color: const Color.fromARGB(255, 0, 62, 112),
-                      width: 2,
-                     )
+                  GestureDetector(
+                    onTap:
+                        () => launchUrlString(
+                          "mailto:alejoursi99@gmail.com",
+                          mode: LaunchMode.externalApplication,
+                        ),
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 240, 242, 243),
+                        borderRadius: BorderRadius.circular(130),
+                        border: Border.all(
+                          color: const Color.fromARGB(255, 0, 62, 112),
+                          width: 2,
+                        ),
+                      ),
+                      child: Icon(Icons.email, color: Colors.black, size: 60),
                     ),
-                    child: Icon(Icons.email, color: Colors.black, size: 60),
                   ),
                   Text("Email", style: TextStyle(fontSize: 20)),
                   SizedBox(width: 10),
@@ -66,26 +74,44 @@ class _ContactBannerState extends State<ContactBanner> {
                     ),
                   ),
                   SizedBox(height: 30),
-                  Container(
-                    width: 100,
-                    height: 100,
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 240, 242, 243),
-                      borderRadius: BorderRadius.circular(130),
-                     border: Border.all(
-                      color: const Color.fromARGB(255, 0, 62, 112),
-                      width: 2,
-                     )  ,
+                  GestureDetector(
+                    onTap:
+                        () => launchUrlString(
+                          "https://wa.me/+5491149724373",
+                          mode: LaunchMode.externalApplication,
+                        ),
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 240, 242, 243),
+                        borderRadius: BorderRadius.circular(130),
+                        border: Border.all(
+                          color: const Color.fromARGB(255, 0, 62, 112),
+                          width: 2,
+                        ),
+                      ),
+                      child: Icon(Icons.phone, color: Colors.black, size: 60),
                     ),
-                    child: Icon(Icons.phone, color: Colors.black, size: 60),
                   ),
                   Text("Telefono", style: TextStyle(fontSize: 20)),
                   SizedBox(width: 10),
-                  Text(
-                    "+54-1149724373",
-                    style: TextStyle(
-                      fontSize: 15,
-                      color: const Color.fromARGB(255, 0, 62, 112),
+                  MouseRegion(
+                    cursor: SystemMouseCursors.click,
+
+                    child: GestureDetector(
+                      onTap:
+                          () => launchUrlString(
+                            "https://wa.me/+5491149724373",
+                            mode: LaunchMode.externalApplication,
+                          ),
+                      child: Text(
+                        "+54-1149724373",
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: const Color.fromARGB(255, 0, 62, 112),
+                        ),
+                      ),
                     ),
                   ),
                   SizedBox(height: 30),
@@ -95,10 +121,10 @@ class _ContactBannerState extends State<ContactBanner> {
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 240, 242, 243),
                       borderRadius: BorderRadius.circular(130),
-                     border: Border.all(
-                      color: const Color.fromARGB(255, 0, 62, 112),
-                      width: 2, ),
-                      
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 0, 62, 112),
+                        width: 2,
+                      ),
                     ),
                     child: Icon(Icons.place, color: Colors.black, size: 60),
                   ),
@@ -150,21 +176,32 @@ class _ContactBannerState extends State<ContactBanner> {
                 children: [
                   Column(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 200,
-                        decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 240, 242, 243),
-                          borderRadius: BorderRadius.circular(130),
-                          border: Border.all(
-                            color: const Color.fromARGB(255, 0, 62, 112),
-                            width: 2,
-                          ),  
-                        ),
-                        child: Icon(
-                          Icons.email,
-                          color: Colors.black,
-                          size: 100,
+                      MouseRegion(
+                        cursor: SystemMouseCursors.click,
+
+                        child: GestureDetector(
+                          onTap:
+                              () => launchUrlString(
+                                "mailto:alejoursi99@gmail.com",
+                                mode: LaunchMode.externalApplication,
+                              ),
+                          child: Container(
+                            width: 200,
+                            height: 200,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(255, 240, 242, 243),
+                              borderRadius: BorderRadius.circular(130),
+                              border: Border.all(
+                                color: const Color.fromARGB(255, 0, 62, 112),
+                                width: 2,
+                              ),
+                            ),
+                            child: Icon(
+                              Icons.email,
+                              color: Colors.black,
+                              size: 100,
+                            ),
+                          ),
                         ),
                       ),
                       Text("Email", style: TextStyle(fontSize: 30)),
@@ -188,30 +225,48 @@ class _ContactBannerState extends State<ContactBanner> {
 
                   Column(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 200,
-                        decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 240, 242, 243),
-                          borderRadius: BorderRadius.circular(130),
-                          border: Border.all(
-                            color: const Color.fromARGB(255, 0, 62, 112),
-                            width: 2,
-                          ),  
-                        ),
-                        child: Icon(
-                          Icons.phone,
-                          color: Colors.black,
-                          size: 100,
+                      MouseRegion(
+                        cursor: SystemMouseCursors.click,
+
+                        child: GestureDetector(
+                          onTap:
+                              () => launchUrlString(
+                                "https://wa.me/+5491149724373",
+                                mode: LaunchMode.externalApplication,
+                              ),
+                          child: Container(
+                            width: 200,
+                            height: 200,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(255, 240, 242, 243),
+                              borderRadius: BorderRadius.circular(130),
+                              border: Border.all(
+                                color: const Color.fromARGB(255, 0, 62, 112),
+                                width: 2,
+                              ),
+                            ),
+                            child: Icon(
+                              Icons.phone,
+                              color: Colors.black,
+                              size: 100,
+                            ),
+                          ),
                         ),
                       ),
                       Text("Telefono", style: TextStyle(fontSize: 30)),
                       SizedBox(height: 10),
-                      Text(
-                        "+54-1149724373",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: const Color.fromARGB(255, 0, 62, 112),
+                      GestureDetector(
+                        onTap:
+                            () => launchUrlString(
+                              "https://wa.me/+5491149724373",
+                              mode: LaunchMode.externalApplication,
+                            ),
+                        child: Text(
+                          "+54-1149724373",
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: const Color.fromARGB(255, 0, 62, 112),
+                          ),
                         ),
                       ),
                     ],
@@ -228,7 +283,7 @@ class _ContactBannerState extends State<ContactBanner> {
                           border: Border.all(
                             color: const Color.fromARGB(255, 0, 62, 112),
                             width: 2,
-                          ),  
+                          ),
                         ),
                         child: Icon(
                           Icons.place,
